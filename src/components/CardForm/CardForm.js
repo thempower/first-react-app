@@ -6,16 +6,14 @@ import { useDispatch } from "react-redux";
 
 const CardForm = (props) => {
   const dispatch = useDispatch();
-  const [title, setTitle] = useState("");
-  //   const handleSubmit = (e) => {
-  //     e.preventDefault();
-  //     props.action({ title: title }, props.columnId);
-  //     setTitle("");
-  //   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    dispatch({ type: "ADD_CARD", newTitle: { title } });
+  const [title, setTitle] = useState("");
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    dispatch({
+      type: "ADD_CARD",
+      payload: { title, columnId: props.columnId },
+    });
     setTitle("");
   };
 
