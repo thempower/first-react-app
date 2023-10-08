@@ -9,6 +9,7 @@ const SearchForm = () => {
     event.preventDefault();
     dispatch({ type: "UPDATE_SEARCH_STRING", payload: event.target[0].value });
   };
+
   return (
     <form
       className={styles.searchForm}
