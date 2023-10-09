@@ -1,0 +1,11 @@
+@import "../../styles/settings.scss";
+
+.wrapper {
+  padding: $base-size;
+}
+.subTitle {
+  text-align: center;
+  font-size: ($base-size * 2);
+  font-style: italic;
+  font-weight: normal;
+}

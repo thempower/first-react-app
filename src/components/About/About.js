@@ -1,13 +1,13 @@
 import PageTitle from "../PageTitle/PageTitle";
 import Subtitle from "../Subtitle/Subtitle";
 
-const Hero = () => {
+const About = () => {
   return (
     <div>
-      <PageTitle>TO DO APP</PageTitle>
-      <Subtitle>My first react app</Subtitle>
+      <PageTitle>About</PageTitle>
+      <Subtitle>just a simple paragraph</Subtitle>
     </div>
   );
 };
 
-export default Hero;
+export default About;

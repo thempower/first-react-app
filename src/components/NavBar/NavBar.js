@@ -10,13 +10,13 @@ const NavBar = () => {
       </span>
       <ul>
         <li>
-          <a link href="URL">
+          <a link href="/">
             Home
           </a>
-          <a link href="URL">
+          <a link href="Favorite">
             Favorite
           </a>
-          <a link href="URL">
+          <a link href="About">
             About
           </a>
         </li>
