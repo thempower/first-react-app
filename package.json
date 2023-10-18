@@ -1,11 +1,12 @@
 {
-  "name": "11.first-react-project",
+  "name": "11.react-first-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "clsx": "^2.0.0",
     "font-awesome": "^4.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -14,9 +15,10 @@
     "react-scripts": "5.0.1",
     "redux": "4.2.1",
     "redux-devtools-extension": "2.13.9",
-    "sass": "^1.67.0",
+    "sass": "^1.65.1",
     "shortid": "^2.2.16",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,9 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "resolve-url-loader": "^5.0.0",
-    "source-map": "^0.7.4"
   }
 }
