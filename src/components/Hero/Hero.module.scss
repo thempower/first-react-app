@@ -1,0 +1,26 @@
+@import "../../styles/settings.scss";
+
+.hero {
+  padding: $base-size;
+}
+
+.title + .subtitle {
+  margin-top: (-$base-size * 3);
+}
+.thanks {
+  color: red;
+  animation: animate 1.5s linear infinite;
+  font-size: 3rem;
+  text-align: center;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+  }
+}

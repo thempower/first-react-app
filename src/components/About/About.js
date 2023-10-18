@@ -1,13 +1,14 @@
-import PageTitle from "../PageTitle/PageTitle";
-import Subtitle from "../Subtitle/Subtitle";
+import styles from './About.module.scss';
+import PageTitle from '../PageTitle/PageTitle';
+import PageSubTitle from '../PageSubTitle/PageSubTitle';
 
 const About = () => {
   return (
-    <div>
+    <div className={styles.about}>
       <PageTitle>About</PageTitle>
-      <Subtitle>just a simple paragraph</Subtitle>
+      <PageSubTitle>About. Po prostu prosty akapit.</PageSubTitle>
     </div>
   );
-};
+}
 
 export default About;
